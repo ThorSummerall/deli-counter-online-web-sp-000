@@ -10,10 +10,9 @@ def line(array)
   end
 end
 
-def take_a_number (array, string)
-  if array.length == 0
-    return array << string
-  end
+def take_a_number (array, name)
+  array << name
+  "Welcome, #{name}, you are #{array.length+1} in line."
 end
 
 def now_serving
