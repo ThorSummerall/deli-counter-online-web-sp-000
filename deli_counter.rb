@@ -10,11 +10,12 @@ def line(array)
   end
 end
 
-def take_a_number (array, name)
+def take_a_number(array, name)
   array.push(name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
-def now_serving
-
+def now_serving(array)
+ if array.length == 0
+   return puts "No one is being served!"
 end
