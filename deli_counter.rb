@@ -1,6 +1,6 @@
 def line(number)
   if number.length > 0
-    puts "The line is currently #{index + 1} #{number}"
+    puts "The line is currently #{number}"
   else
     puts "The line is currently empty."
   end
