@@ -5,6 +5,7 @@ def line(array)
     sentence = "The line is currently:"
     array.each_with_index do |name, index|
       sentence << "#{index}. #{name}"
+    end
   end
 end
 
