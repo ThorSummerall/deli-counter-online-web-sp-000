@@ -11,8 +11,13 @@ def line(array)
 end
 
 def take_a_number (array, name)
-  array << name
-  "Welcome, #{name}, you are #{array.length+1} in line."
+  if array.length == 0
+    array << name
+    return "Welcome, #{name}, you are #{array.length+1} in line."
+  else
+    array.push(name)
+    return "Welcome, #{name}, you are #{array.length+1} in line."
+  end
 end
 
 def now_serving
