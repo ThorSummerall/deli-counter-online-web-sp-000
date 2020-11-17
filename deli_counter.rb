@@ -1,5 +1,5 @@
 def line(number)
-  if number > 0
+  if number.length > 0
     puts "The line is currently #{number}"
   else
     puts "The line is currently empty."
